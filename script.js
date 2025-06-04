@@ -2,7 +2,6 @@ const display = document.getElementById('display');
 
 function clearDisplay() {
     display.value = '';
-    let unusedVariableForDemo = "hello"; // Variabel tidak digunakan
 }
 
 
