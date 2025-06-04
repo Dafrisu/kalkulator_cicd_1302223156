@@ -1,5 +1,11 @@
 const display = document.getElementById('display');
 
+function clearDisplay() {
+    display.value = '';
+    let unusedVariableForDemo = "hello"; // Variabel tidak digunakan
+}
+
+
 function appendToDisplay(value) {
     if (display.value === 'Error' || (display.value === '0' && value !== '.' && !isOperator(value))) {
         display.value = value;
